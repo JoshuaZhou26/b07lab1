@@ -39,6 +39,6 @@ public class Polynomial {
 	}
 	
 	public boolean hasRoot(double root) {
-		return this.evaluate(root) != 0;
+		return this.evaluate(root) == 0;
 	}
 }
